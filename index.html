@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Serve para dar a instrução ao navegador que indica a versão ou o tipo de HTML -->
+<html lang="pt-BR"> <!-- A tag <html> define o início do documento HTML. O atributo lang="pt-BR" especifica qual é o idioma principal da página. -->
+
+<head> <!-- A tag <head> contém metadados sobre o documento, como o título, codificação de caracteres e links para folhas de estilo ou scripts. Esses metadados não são exibidos na página. -->
+
+    <meta charset="UTF-8"> <!-- Especifica a codificação de caracteres do documento como UTF-8, que suporta quase todos os caracteres, incluindo símbolos e acentos usados em português. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define como a página deve ser exibida em diferentes dispositivos. Aqui, ela garante que a largura da página corresponda à largura da tela do dispositivo, tornando-a responsiva para celulares e tablets. -->
+
+    <title>Título da Aba do Navegador</title> <!-- Define o título que aparece na aba do navegador -->
+</head>
+<!-- A tag <body> contém todo o conteúdo visível da página, como textos, imagens, links, e outros elementos que são exibidos ao usuário. -->
+<body> <!--  -->
+
+    <!-- Headings Tags (Tags de Cabeçalho) são usadas para definir a importância e a hierarquia dos títulos e subtítulos em uma página web -->
+    <h1>É o título mais importante</h1> <!-- Diferente das outras Heading Tags, só podemos usar a tag <h1> uma vez na nossa página. -->
+    <h2>É menor que o h1 e maior que h3</h2>
+    <h3>É menor que o h2 e maior que h4</h3>
+    <h4>É menor que o h3 e maior que h5</h4>
+    <h5>É menor que o h4 e maior que h6</h5>
+    <h6>É o menor de todos</h6>
+
+    <!-- A tag <p> em HTML é usada para definir um parágrafo de texto. Todo o conteúdo dentro de uma tag <p> será exibido como um bloco de texto, com espaçamento antes e depois, indicando o início e o fim de um parágrafo. -->
+
+    <p>Este é o primeiro parágrafo do meu site. Aqui, posso descrever o propósito do site ou fornecer uma breve introdução ao conteúdo.</p>
+
+    <p>Este é o segundo parágrafo. Diferente do primeiro, aqui estou fornecendo mais detalhes e talvez explicando tópicos de interesse para os leitores. Cada parágrafo é separado do outro por um espaço em branco, tornando a leitura mais agradável e organizada.</p>
+
+    <p>Agora, no terceiro parágrafo, estou encerrando meu texto de introdução, reforçando os pontos anteriores e convidando o usuário a explorar o site com mais atenção. Posso usar quantos parágrafos eu quiser no meu site.</p>
+
+    <!-- Listas Ordenadas (<ol>) - A tag <ol> em HTML é usada para criar uma lista ordenada, ou seja, uma lista de itens numerados. Cada item dentro de uma lista ordenada é definido pela tag <li>, que significa "list item" (item de lista). O navegador numera automaticamente os itens da lista. -->
+
+    <h2>Lista de prioridades do nosso curso:</h2>
+
+    <ol>
+        <li>Estudar HTML</li>
+        <li>Praticar CSS</li>
+        <li>Aprender JavaScript</li>
+        <li>Fazer um projeto em React</li>
+    </ol>
+    
+    <!-- Listas NÃO Ordenadas (<ul>) - A tag <ul> em HTML é usada para criar uma lista não ordenada, ou seja, uma lista de itens marcados com pontos (ou outros símbolos) em vez de números. Assim como nas listas ordenadas, cada item é definido pela tag <li>. -->
+
+    <h2>Lista de conteúdos:</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>    
+
+    <!-- A tag <iframe> em HTML é usada para incorporar ou inserir um conteúdo externo dentro de uma página, como uma outra página web, um vídeo do YouTube, um mapa, ou outro recurso. O conteúdo exibido dentro do iframe pode ser interativo, mas ele é isolado do restante da página. -->
+
+    <!-- Vídeo de incorporado do YouTube-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1ntb19o-2MI?si=d-IsyrojcrGSiAP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- A tag <br> em HTML é usada para inserir uma quebra de linha no texto. É uma tag proibida por questões de Semântica, Acessibilidade e Manutenção do código. Usei nesse código apelas pelo fato de ainda não termos entrado em CSS -->
+        <br>
+    
+    <!-- Mapa incorporado do Google -->
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.424168788302!2d-43.20399062468885!3d-22.934600679235494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fc35f35b0d3%3A0x21846ab8cd7b5338!2sVaiNaWeb%20Prazeres!5e0!3m2!1spt-BR!2sbr!4v1725559642067!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br>
+
+    <!-- A tag <img> em HTML é usada para incorporar uma imagem em uma página web. É uma tag auto-fechada (não requer uma tag de fechamento) e possui atributos importantes para definir a fonte e a descrição da imagem. -->
+
+    <img src="https://miro.medium.com/v2/resize:fit:728/1*stquPtjkAaL17yOsxadEXg.png" alt="Imagem com todos os vingadores do filme da Marvel">
+
+    <br>
+
+    <!-- A tag <a> em HTML é usada para criar links que permitem aos usuários navegar para outras páginas ou recursos. Pode ser usada para vincular a outras páginas dentro do mesmo site, a páginas externas, a endereços de e-mail, ou até mesmo para executar ações, como abrir um arquivo. -->
+
+    <a href="https://www.devmedia.com.br/html-basico-codigos-html/16596">Exemplo de link</a>
+
+    <br>
+
+    <!-- target="_blank":  Faz com que o link seja aberto em uma nova aba ou janela do navegador. Esse atributo é opcional e pode ser usado para links externos para melhorar a experiência do usuário. -->
+
+    <a target="_blank" href="https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html?srsltid=AfmBOop8YJv44ZJexdNwaf9LG2COKfE8ZlXzJEikXFp994aJZLfxqAra">Exemplo de link usando o target="_blank"</a>
+
+</body>
+</html>
